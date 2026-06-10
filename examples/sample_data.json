@@ -1,0 +1,132 @@
+{
+  "buildings": [
+    {
+      "id": "1",
+      "name": "Edificio A",
+      "address": "Avenida Principal #123, Caracas",
+      "units": [
+        {
+          "id": "1",
+          "number": "101",
+          "floor": 1,
+          "type": "Apartamento",
+          "owner_name": "Juan Pérez",
+          "monthly_rent": "1500.00"
+        },
+        {
+          "id": "2",
+          "number": "102",
+          "floor": 1,
+          "type": "Apartamento",
+          "owner_name": "María García",
+          "monthly_rent": "1500.00"
+        },
+        {
+          "id": "3",
+          "number": "201",
+          "floor": 2,
+          "type": "Apartamento",
+          "owner_name": "Carlos López",
+          "monthly_rent": "1800.00"
+        },
+        {
+          "id": "4",
+          "number": "202",
+          "floor": 2,
+          "type": "Apartamento",
+          "owner_name": "Ana Rodríguez",
+          "monthly_rent": "1800.00"
+        },
+        {
+          "id": "5",
+          "number": "E1",
+          "floor": 0,
+          "type": "Estacionamiento",
+          "owner_name": "Juan Pérez",
+          "monthly_rent": "300.00"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Edificio B",
+      "address": "Calle Secundaria #456, Caracas",
+      "units": [
+        {
+          "id": "6",
+          "number": "101",
+          "floor": 1,
+          "type": "Apartamento",
+          "owner_name": "Pedro Martínez",
+          "monthly_rent": "1600.00"
+        },
+        {
+          "id": "7",
+          "number": "102",
+          "floor": 1,
+          "type": "Apartamento",
+          "owner_name": "Sofía Hernández",
+          "monthly_rent": "1600.00"
+        },
+        {
+          "id": "8",
+          "number": "201",
+          "floor": 2,
+          "type": "Apartamento",
+          "owner_name": "Roberto Díaz",
+          "monthly_rent": "1900.00"
+        }
+      ]
+    }
+  ],
+  "payments": [
+    {
+      "id": "1",
+      "unit_id": "1",
+      "amount": "1500.00",
+      "payment_date": "2026-06-05",
+      "concept": "Renta del Mes Actual",
+      "payment_method": "Transferencia"
+    },
+    {
+      "id": "2",
+      "unit_id": "2",
+      "amount": "750.00",
+      "payment_date": "2026-06-10",
+      "concept": "Pago Parcial",
+      "payment_method": "Efectivo"
+    },
+    {
+      "id": "3",
+      "unit_id": "3",
+      "amount": "1800.00",
+      "payment_date": "2026-06-03",
+      "concept": "Renta del Mes Actual",
+      "payment_method": "Cheque"
+    },
+    {
+      "id": "4",
+      "unit_id": "5",
+      "amount": "300.00",
+      "payment_date": "2026-06-02",
+      "concept": "Renta del Mes Actual",
+      "payment_method": "Transferencia"
+    },
+    {
+      "id": "5",
+      "unit_id": "6",
+      "amount": "1600.00",
+      "payment_date": "2026-06-07",
+      "concept": "Renta del Mes Actual",
+      "payment_method": "Efectivo"
+    },
+    {
+      "id": "6",
+      "unit_id": "8",
+      "amount": "1900.00",
+      "payment_date": "2026-06-01",
+      "concept": "Renta del Mes Actual",
+      "payment_method": "Transferencia"
+    }
+  ]
+}
